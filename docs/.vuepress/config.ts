@@ -5,7 +5,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: 'zh-CN', // 站点语言
   title: 'Hello World ！', // 站点标题
   description: '这是我的第一个 VuePress 站点', // 站点描述
-  base: '/', // 部署站点的基础路径
+  base: '/vuepress_show_page/', // 部署站点的基础路径
 
   // 配置当前使用的主题，当前为默认主题
   themeConfig: {

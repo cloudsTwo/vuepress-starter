@@ -15,12 +15,12 @@ cd docs/.vuepress/dist
 git init
 git checkout -b main
 git add -A
-git commit -m 'echarts移动端自适应'
+git commit -m 'init'
 
 # 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/cloudsTwo/cloudsTwo.github.io.git main
-
+# git push -f https://github.com/cloudsTwo.github.io.git
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f https://github.com/cloudsTwo/vuepress_show_page.git main:gh-pages
 
 cd -
